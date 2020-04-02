@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+          "http://checkstyle.sourceforge.net/dtds/configuration_1_3.dtd">
+
+
+
+<module name="Checker">
+
+
+    <property name="fileExtensions" value="java, properties, xml"/>
+
+
+    <module name="FileLength"/>
+
+
+
+    <module name="TreeWalker">
+        
+
+        <!-- Checks for Naming Conventions.                  -->
+        <!-- See http://checkstyle.sf.net/config_naming.html -->
+        <module name="ConstantName"/>
+        <module name="LocalFinalVariableName"/>
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="PackageName"/>
+        <module name="ParameterName"/>
+        <module name="StaticVariableName"/>
+        <module name="TypeName"/>
+    </module>
+
+</module>
